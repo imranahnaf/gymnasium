@@ -49,6 +49,21 @@
         background: white;
         color: #353535;
     }
+    
+    .banner-slider .banner-item {
+        position: relative;
+    }
+
+    .banner-slider .banner-item::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 60%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
 
     .banner-slider .banner-item .container .row .banner-text h4 {
         font-size: 25px !important;
@@ -310,7 +325,7 @@
 
 /* ======== *****small device responsive starts***** ======== */
 
-@media(min-width: 576px max-width: 767px) {
+@media(min-width: 576px) and (max-width: 767px) {
 
     body {
         overflow-x: hidden;
