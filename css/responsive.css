@@ -1,0 +1,587 @@
+/* ======== *****extra small device responsive starts***** ======== */
+@media(max-width: 575px) {
+
+    /* ======== *****navbar & banner section starts***** ======== */
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        padding: 0 !important;
+    }
+
+    .navbar .navbar-brand {
+        position: static !important;
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0);
+        -moz-transform: skewX(0);
+        -o-transform: skewX(0);
+        -ms-transform: skewX(0);
+    }
+
+    .navbar .navbar-brand img {
+        transform: skewX(0deg) !important;
+        -webkit-transform: skewX(0);
+        -moz-transform: skewX(0);
+        -o-transform: skewX(0);
+        -ms-transform: skewX(0);
+        width: 80px;
+    }
+
+    .navbar .navbar-nav {
+        background: rgba(0, 0, 0, 80%) !important;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::before {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+        background: white;
+        color: #353535;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text h4 {
+        font-size: 25px !important;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text h1 {
+        font-size: 40px !important;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text h4::before {
+        display: none;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text h4::after {
+        display: none;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text h1::before {
+        display: none;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text h1::after {
+        display: none;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text p::before {
+        display: none;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text p::after {
+        display: none;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text a {
+        margin-top: 30px;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text a:first-of-type {
+        margin-left: 20px !important;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text {
+        padding-top: 140px !important;
+        padding-bottom: 30px !important;
+        text-align: center !important;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text p {
+        padding: 0 !important;
+        text-align: center !important;
+    }
+
+    /* ======== *****navbar & banner section ends***** ======== */
+
+
+    /* ======== *****about section starts***** ======== */
+
+    .about-bg {
+        padding-top: 30px !important;
+    }
+
+    .about-bg .about-content .about-text p {
+        padding: 0 !important;
+    }
+
+    .about-bg .about-content .about-text p:first-of-type {
+        padding-top: 20px !important;
+    }
+
+    /* ======== *****about section ends***** ======== */
+
+
+    /* ======== *****gallary section starts***** ======== */
+
+    .gl-heading .heading {
+        padding-top: 30px !important;
+    }
+
+    /* ======== *****gallary section ends***** ======== */
+
+
+    /* ======== *****team section starts***** ======== */
+
+    .team-bg .team-head {
+        padding-top: 30px !important;
+    }
+
+    .team-bg .team-item {
+        margin-top: 0 !important;
+    }
+
+    .team-bg .team-item:first-child {
+        margin-top: 40px !important;
+    }
+
+    .team-bg .team-item .card {
+        margin-right: 0 !important;
+    }
+
+    /* ======== *****team section ends***** ======== */
+
+
+    /* ======== *****testimonials section starts***** ======== */
+
+    .testimonials-bg .test-item {
+        padding-bottom: 30px !important;
+    }
+
+    .testimonials-bg .test-img img {
+        align-items: center !important;
+    }
+
+    /* ======== *****testimonials section ends***** ======== */
+
+
+    /* ======== *****membership section starts***** ======== */
+
+    .membership-heading {
+        padding-top: 30px !important;
+    }
+
+    .membership-bg .member-item {
+        margin-top: 30px !important;
+        padding: 0 !important;
+    }
+
+    .membership-bg .member-item .box .text {
+        padding-top: 15px !important;
+    }
+
+    .membership-bg .member-item .box .text p {
+        padding-top: 5px !important;
+    }
+
+    /* ======== *****membership section ends***** ======== */
+
+
+    /* ======== *****counter section starts***** ======== */
+
+    .counter-bg {
+        margin-top: 30px !important;
+        padding-top: 10px !important;
+    }
+
+    .counter-bg .item-child {
+        padding: 10px 0 10px 0 !important;
+    }
+
+    /* ======== *****counter section ends***** ======== */
+
+
+    /* ======== *****routine section starts***** ======== */
+
+    .routine-bg .routine-nav ul {
+        margin-bottom: 10px !important;
+    }
+
+    .routine-bg .routine-nav ul li {
+        margin-top: 0 !important;
+    }
+
+    .routine-bg .routine-nav ul li button {
+        font-size: 12px !important;
+        padding: 10px 20px !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li {
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-right: 10px !important;
+        margin-bottom: 11px !important;
+        width: 22% !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li:nth-child(4) {
+        margin-right: 0 !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li:nth-child(8) {
+        margin-right: 0 !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li p {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li p:first-of-type {
+        padding: 10px 0 !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li i {
+        font-size: 32px !important;
+    }
+
+    /* ======== *****routine section ends***** ======== */
+
+
+    /* ======== *****membership section starts***** ======== */
+
+
+
+    /* ======== *****membership section ends***** ======== */
+
+
+    /* ======== *****brand section starts***** ======== */
+
+    .brand-bg {
+        padding-top: 30px !important;
+        padding-bottom: 30px !important;
+    }
+
+    /* ======== *****brand section ends***** ======== */
+
+    .footer-bg .footer-branding p {
+        font-size: 12px !important;
+    }
+
+    .footer-bg::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: red;
+        position: absolute;
+        bottom: 70px !important;
+        left: 0;
+    }
+
+    .footer-bg .footer-img ul li {
+        margin-right: 0 !important;
+        width: 24%;
+        margin-right: 1% !important;
+    }
+
+    .footer-bg .footer-img ul li img {
+        width: 100%;
+    }
+
+    .footer-bg .footer-text {
+        padding-top: 10px !important;
+    }
+
+    .footer-bg .footer-img {
+        padding-top: 20px !important;
+    }
+
+    .footer-bg .footer-text ul {
+        margin-bottom: 0 !important;
+    }
+
+    /* ======== *****footer section ends***** ======== */
+}
+
+/* ======== *****extra small device responsive ends***** ======== */
+
+
+
+
+
+/* ======== *****small device responsive starts***** ======== */
+
+@media(min-width: 576px max-width: 767px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    /* ======== *****navbar & banner section starts***** ======== */
+    .navbar {
+        padding: 0 !important;
+    }
+
+    .navbar .navbar-brand {
+        position: static !important;
+
+    }
+
+    .navbar .navbar-nav {
+        background: rgba(0, 0, 0, 80%) !important;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        text-align: center;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::before {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link::after {
+        display: none;
+    }
+
+    .navbar .navbar-nav .nav-item .nav-link:hover {
+        background: white;
+        color: #353535;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text h4 {
+        font-size: 32px !important;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text h1 {
+        font-size: 48px !important;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text h4::before {
+        display: none;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text h4::after {
+        display: none;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text h1::before {
+        display: none;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text h1::after {
+        display: none;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text p::before {
+        display: none;
+    }
+
+    .banner-slider .item-1 .container .row .banner-text p::after {
+        display: none;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text a {
+        margin-top: 30px;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text a:first-of-type {
+        margin-left: 20px !important;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text {
+        padding-top: 160px !important;
+        padding-bottom: 50px !important;
+        text-align: center !important;
+    }
+
+    .banner-slider .banner-item .container .row .banner-text p {
+        padding: 0 !important;
+        text-align: center !important;
+    }
+
+    /* ======== *****navbar & banner section ends***** ======== */
+
+
+    /* ======== *****about section starts***** ======== */
+
+    .about-bg {
+        padding-top: 30px !important;
+    }
+
+    .about-bg .about-content .about-text p {
+        padding: 0 !important;
+    }
+
+    .about-bg .about-content .about-text p:first-of-type {
+        padding-top: 20px !important;
+    }
+
+    .about-bg .about-content .about-text p:last-of-type {
+        margin-bottom: 0 !important;
+        padding-bottom: 30px !important;
+    }
+
+    /* ======== *****about section ends***** ======== */
+
+
+    /* ======== *****gallary section starts***** ======== */
+
+    .gl-heading .heading {
+        padding-top: 50px !important;
+    }
+
+    /* ======== *****gallary section ends***** ======== */
+
+
+    /* ======== *****team section starts***** ======== */
+
+    .team-bg .team-head {
+        padding-top: 50px !important;
+    }
+
+    .team-bg .team-item {
+        margin-top: 0 !important;
+    }
+
+    .team-bg .team-item {
+        margin-top: 35px !important;
+    }
+
+    .team-bg .team-item .card {
+        margin-right: 0 !important;
+    }
+
+    /* ======== *****team section ends***** ======== */
+
+
+    /* ======== *****membership section starts***** ======== */
+
+    .membership-heading {
+        padding-top: 50px !important;
+    }
+
+    .membership-bg .member-item {
+        margin-top: 30px !important;
+        padding: 0 !important;
+    }
+
+    .membership-bg .member-item .box .text {
+        padding-top: 15px !important;
+    }
+
+    .membership-bg .member-item .box .text p {
+        padding-top: 25px !important;
+    }
+
+    /* ======== *****membership section ends***** ======== */
+
+
+    /* ======== *****counter section starts***** ======== */
+
+    .counter-bg {
+        margin-top: 50px !important;
+        padding-top: 20px !important;
+    }
+
+    .counter-bg .item-child {
+        padding: 15px 0 15px 0 !important;
+    }
+
+    /* ======== *****counter section ends***** ======== */
+
+
+    /* ======== *****routine section starts***** ======== */
+
+    .routine-bg .routine-nav ul li {
+        margin-top: 0 !important;
+    }
+
+    .routine-bg .routine-nav ul {
+        margin-bottom: 10px !important;
+    }
+
+    .routine-bg .routine-nav ul li button {
+        font-size: 15px !important;
+        padding: 10px 60px !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li {
+        padding: 0 !important;
+        margin: 0 !important;
+        margin-right: 10px !important;
+        margin-bottom: 11px !important;
+        width: 23.5% !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li:nth-child(4) {
+        margin-right: 0 !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li:nth-child(8) {
+        margin-right: 0 !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li p {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li p:first-of-type {
+        padding: 10px 0 !important;
+    }
+
+    .routine-bg .routine-nav .filter-text .item ul li i {
+        font-size: 32px !important;
+    }
+
+    /* ======== *****routine section ends***** ======== */
+
+
+    /* ======== *****brand section starts***** ======== */
+
+    .brand-bg {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
+    }
+
+    /* ======== *****brand section ends***** ======== */
+
+    .footer-bg .footer-branding p {
+        font-size: 12px !important;
+    }
+
+    .footer-bg::after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: red;
+        position: absolute;
+        bottom: 70px !important;
+        left: 0;
+    }
+
+    .footer-bg .footer-img ul li {
+        margin-right: 0 !important;
+        width: 24%;
+        margin-right: 1% !important;
+    }
+
+    .footer-bg .footer-img ul li img {
+        width: 100%;
+    }
+
+    .footer-bg .footer-text {
+        padding-top: 10px !important;
+    }
+
+    .footer-bg .footer-img {
+        padding-top: 20px !important;
+    }
+
+    .footer-bg .footer-text ul {
+        margin-bottom: 0 !important;
+    }
+
+    /* ======== *****footer section ends***** ======== */
+}
+
+/* ======== *****small device responsive ends***** ======== */
