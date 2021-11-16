@@ -49,9 +49,9 @@
         background: white;
         color: #353535;
     }
-    
+
     .banner-slider .banner-item {
-        position: relative;
+        position: relative
     }
 
     .banner-slider .banner-item::after {
@@ -227,7 +227,7 @@
 
     .routine-bg .routine-nav ul li button {
         font-size: 12px !important;
-        padding: 10px 20px !important;
+        padding: 10px 25px !important;
     }
 
     .routine-bg .routine-nav .filter-text .item ul li {
@@ -325,7 +325,7 @@
 
 /* ======== *****small device responsive starts***** ======== */
 
-@media(min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 767px) {
 
     body {
         overflow-x: hidden;
