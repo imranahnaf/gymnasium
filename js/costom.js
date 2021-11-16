@@ -70,21 +70,20 @@ $(function () {
             {
                 breakpoint: 992,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: false
+                    dots: true,
                 }
     },
             {
                 breakpoint: 768,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: false,
+                    dots: true,
                     arrows: false,
-                    centerMode: false,
                 }
     },
             {
@@ -93,9 +92,8 @@ $(function () {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: false,
+                    dots: true,
                     arrows: false,
-                    centerMode: false,
                 }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -145,7 +143,8 @@ $(function () {
                     slidesToShow: 3,
                     slidesToScroll: 1,
                     infinite: true,
-                    dots: false
+                    dots: false,
+                    arrows: true,
                 }
     },
             {
