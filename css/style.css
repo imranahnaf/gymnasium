@@ -1,4 +1,5 @@
-/* ======== *****common css starts***** ======== */
+/* =====***** common css starts *****===== */
+
 :root {
     --pfont: 'Open Sans', sans-serif;
     --hfont: 'Oswald', sans-serif;
@@ -26,13 +27,13 @@ a {
     text-decoration: none;
 }
 
-/* ======== *****common css ends***** ======== */
+/* =====***** common css ends *****===== */
 
 
-/* ======== *****navbar css starts***** ======== */
+/* =====***** navbar css starts *****===== */
 
 .navbar {
-    background: rgba(0, 0, 0, 50%);
+    background: rgb(0, 0, 0, 50%);
     position: absolute;
     top: 40px;
     z-index: 9999999999;
@@ -40,7 +41,7 @@ a {
 }
 
 .navbar .navbar-brand {
-    background: rgba(53, 53, 53, 95%);
+    background: rgb(53, 53, 53, 95%);
     padding: 10px 15px !important;
     position: absolute;
     transform: skewX(-30deg);
@@ -51,18 +52,13 @@ a {
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
     position: relative;
     z-index: 1;
     margin-top: 5px;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover {
@@ -78,7 +74,7 @@ a {
     top: 0;
     left: 0;
     z-index: -1;
-    transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover::before {
@@ -89,16 +85,12 @@ a {
     content: '';
     width: 0%;
     height: 3px;
-    background: var(--brandcol) !important;
+    background: #e23e38 !important;
     position: absolute;
     bottom: 0;
     left: 0;
     z-index: -1;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .navbar .navbar-nav .nav-item .nav-link:hover::after {
@@ -109,21 +101,22 @@ a {
     border-color: white !important;
     background: white;
 }
-/* ======== *****navbar css ends***** ======== */
+
+/* =====***** navbar css ends *****===== */
 
 
-/* ======== *****banner css starts***** ======== */
+/* =====***** banner css starts *****===== */
 
 .banner-slider .item-1 {
-    background: url(../images/banner%20img1.png) no-repeat center / cover;
+    background: url(../images/banner%20img1.png) center /cover no-repeat;
 }
 
 .banner-slider .item-2 {
-    background: url(../images/banner%20img2.png) no-repeat center / cover;
+    background: url(../images/banner%20img2.png) center /cover no-repeat;
 }
 
 .banner-slider .item-3 {
-    background: url(../images/banner%20img3.png) no-repeat center / cover;
+    background: url(../images/banner%20img3.png) center /cover no-repeat;
 }
 
 .banner-slider .banner-item {
@@ -135,7 +128,7 @@ a {
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 60%);
+    background: rgb(0, 0, 0, 60%);
     position: absolute;
     top: 0;
     left: 0;
@@ -148,7 +141,6 @@ a {
 }
 
 .banner-slider .banner-item .container .row .banner-text h4 {
-    font-family: var(--hfont);
     font-weight: 700;
     font-size: 30px;
     color: white;
@@ -156,7 +148,6 @@ a {
 }
 
 .banner-slider .banner-item .container .row .banner-text h1 {
-    font-family: var(--hfont);
     font-weight: 600;
     font-size: 60px;
     padding: 15px 0 15px 0;
@@ -165,7 +156,6 @@ a {
 }
 
 .banner-slider .banner-item .container .row .banner-text p {
-    font-family: var(--pfont);
     color: var(--memcol);
     font-weight: 400;
     font-size: 14px;
@@ -178,7 +168,7 @@ a {
     content: '';
     width: 125px;
     height: 2px;
-    background: var(--brandcol);
+    background: #e23e38;
     position: absolute;
     top: 225px;
     left: -18px;
@@ -188,7 +178,7 @@ a {
     content: '';
     width: 73px;
     height: 2px;
-    background: var(--brandcol);
+    background: #e23e38;
     position: absolute;
     top: 225px;
     right: 9px;
@@ -198,7 +188,7 @@ a {
     content: '';
     width: 215px;
     height: 2px;
-    background: var(--brandcol);
+    background: #e23e38;
     position: absolute;
     top: -22px;
     left: -20px;
@@ -208,7 +198,7 @@ a {
     content: '';
     width: 140px;
     height: 2px;
-    background: var(--brandcol);
+    background: #e23e38;
     position: absolute;
     top: -25px;
     right: 10px;
@@ -218,7 +208,7 @@ a {
     content: '';
     width: 2px;
     height: 203px;
-    background: var(--brandcol);
+    background: #e23e38;
     position: absolute;
     top: -130px;
     left: -20px;
@@ -228,7 +218,7 @@ a {
     content: '';
     width: 2px;
     height: 206px;
-    background: var(--brandcol);
+    background: #e23e38;
     position: absolute;
     top: -133px;
     right: 10px;
@@ -239,20 +229,14 @@ a {
 }
 
 .banner-slider .banner-item .container .row .banner-text a {
-    background: var(--brandcol);
-    border: 1px solid var(--brandcol);
-    ;
-    font-family: var(--pfont);
+    background: #e23e38;
+    border: var(--brandcol) solid 1px;
     font-weight: 500;
     font-size: 16px;
     border-radius: 0;
     padding: 0 15px;
     line-height: 32px;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .banner-slider .banner-item .container .row .banner-text a:first-of-type {
@@ -262,13 +246,13 @@ a {
 .banner-slider .banner-item .container .row .banner-text a:hover {
     background: transparent;
     color: white;
-    border: 1px solid white;
+    border: white solid 1px;
 }
 
 .banner-slider .slick-dots {
     width: 120px;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
     left: 45%;
     display: flex;
     justify-content: space-between;
@@ -279,7 +263,7 @@ a {
 .banner-slider .slick-dots li {
     width: 15px;
     height: 15px;
-    border: 1px solid white;
+    border: white solid 1px;
     border-radius: 50%;
     transform: scale(1);
 }
@@ -295,10 +279,10 @@ a {
     outline: none;
 }
 
-/* ======== *****banner css ends***** ======== */
+/* =====***** banner css ends *****===== */
 
 
-/* ======== *****about css starts***** ======== */
+/* =====***** about css starts *****===== */
 
 .about-bg {
     padding-top: 80px;
@@ -311,7 +295,7 @@ a {
 .about-bg .about-content .about-img .about-overlay {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(0, 0, 0, 0.5);
     position: absolute;
     top: 0;
     left: 0;
@@ -323,13 +307,8 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50, -50%);
     position: relative;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
     z-index: 2;
     padding-top: 0;
 }
@@ -338,16 +317,12 @@ a {
     content: '';
     width: 60px;
     height: 60px;
-    background: var(--brandcol);
+    background: #e23e38;
     border-radius: 50%;
     position: absolute;
     top: -14px;
     left: -21px;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
     z-index: -1;
 }
 
@@ -360,7 +335,6 @@ a {
 }
 
 .about-bg .about-content .about-text h4 {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 22px;
     color: var(--hcol);
@@ -372,7 +346,6 @@ a {
 .about-bg .about-content .about-text p {
     text-transform: capitalize;
     color: var(--pcol);
-    font-family: var(--pfont);
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -383,10 +356,10 @@ a {
     padding: 20px 0 10px 0;
 }
 
-/* ======== *****about css ends***** ======== */
+/* =====***** about css ends *****===== */
 
 
-/* ======== *****gallary css starts***** ======== */
+/* =====***** gallary css starts *****===== */
 
 .gl-heading .heading {
     padding-top: 80px;
@@ -394,7 +367,6 @@ a {
 }
 
 .gl-heading .heading h4 {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 22px;
     color: var(--hcol);
@@ -404,7 +376,7 @@ a {
 }
 
 .gallary-bg {
-    background: url(../images/gallary-bg.png) no-repeat center/cover;
+    background: url(../images/gallary-bg.png) center /cover no-repeat;
     position: relative;
     z-index: 1;
 }
@@ -413,7 +385,7 @@ a {
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 80%);
+    background: rgb(0, 0, 0, 80%);
     position: absolute;
     top: 0;
     left: 0;
@@ -429,12 +401,12 @@ a {
 .gallary-bg .gallary-content .row .gl-item .item-img .gl-overlay {
     width: 92%;
     height: 92%;
-    background: rgba(226, 62, 56, 50%);
-    border: 6px solid #d4e1c3;
+    background: rgb(226, 62, 56, 50%);
+    border: #d4e1c3 solid 6px;
     position: absolute;
     top: -100%;
     left: 4%;
-    transition: all linear 0.4s;
+    transition: all 0.4s linear;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -449,17 +421,17 @@ a {
     color: white;
 }
 
-/* ======== *****gallary css ends***** ======== */
+/* =====***** gallary css ends *****===== */
 
 
-/* ======== *****team css starts***** ======== */
+/* =====***** team css starts *****===== */
+
 .team-bg .team-head {
     text-align: center;
     padding-top: 80px;
 }
 
 .team-bg .team-head h4 {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 22px;
     color: var(--hcol);
@@ -468,32 +440,20 @@ a {
     margin-bottom: 0 !important;
 }
 
-/*
-.team-bg .team {
-    display: flex;
-}
-*/
-
 .team-bg .team-item {
     margin-top: 90px;
     overflow: hidden;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .team-bg .team-item h5 {
     font-size: 18px;
-    font-family: var(--hfont);
     font-weight: 400;
     color: var(--hcol);
 }
 
 .team-bg .team-item h6 {
     font-size: 14px;
-    font-family: var(--hfont);
     font-weight: 400;
     color: var(--hcol);
 }
@@ -505,11 +465,7 @@ a {
 .team-bg .team-item .card {
     margin-right: 30px;
     border-color: transparent;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .team-bg .team-item .card:hover {
@@ -517,18 +473,13 @@ a {
 }
 
 .team-bg .team-item .card-text {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 13px;
     color: var(--hcol);
     line-height: 24px;
     opacity: 0;
     visibility: hidden;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .team-bg .team-item .card:hover .card-text {
@@ -547,16 +498,12 @@ a {
 .team-bg .team-item .card .team-img .overlay {
     width: 92%;
     height: 92%;
-    background: rgba(226, 62, 56, 50%);
+    background: rgb(226, 62, 56, 50%);
     position: absolute;
     top: -100%;
     left: 4%;
-    border: 6px solid #d4e1c3;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    border: #d4e1c3 solid 6px;
+    transition: all 0.4s linear;
 }
 
 .team-bg .team-img .overlay ul li a {
@@ -566,15 +513,11 @@ a {
     display: inline-block;
     line-height: 30px;
     text-align: center;
-    border: 1px solid white;
+    border: white solid 1px;
     box-sizing: border-box;
     margin-bottom: 10px;
     margin-right: 10px;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
     position: relative;
 }
 
@@ -586,11 +529,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .team-bg .team-img .overlay ul li a:hover::after {
@@ -603,12 +542,12 @@ a {
     z-index: 1;
 }
 
-/* ======== *****team css ends***** ======== */
+/* =====***** team css ends *****===== */
 
 
-/* ======== *****testimonials css starts***** ======== */
+/* =====***** testimonials css starts *****===== */
+
 .test-head .test-heading h4 {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 22px;
     color: var(--hcol);
@@ -618,7 +557,7 @@ a {
 }
 
 .testimonials-bg {
-    background: url(../images/testmonials%20bg.png) no-repeat center/cover;
+    background: url(../images/testmonials%20bg.png) center /cover no-repeat;
     position: relative;
     z-index: 1;
     margin-top: 30px;
@@ -628,7 +567,7 @@ a {
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 80%);
+    background: rgb(0, 0, 0, 80%);
     position: absolute;
     top: 0;
     left: 0;
@@ -636,21 +575,18 @@ a {
 }
 
 .testimonials-bg .test-details h5 {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 18px;
     text-transform: uppercase;
 }
 
 .testimonials-bg .test-item .test-details h6 {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 16px;
     text-transform: capitalize;
 }
 
 .testimonials-bg .test-item p {
-    font-family: var(--pfont);
     font-weight: 400;
     font-size: 14px;
     text-transform: capitalize;
@@ -687,14 +623,14 @@ a {
 .testimonials-bg .slick-dots li {
     width: 15px;
     height: 15px;
-    border: 1px solid white;
+    border: white solid 1px;
     border-radius: 50%;
     transform: scale(1);
 }
 
 .testimonials-bg .slick-dots li.slick-active {
     transform: scale(1.3);
-    background: var(--brandcol);
+    background: #e23e38;
     border: none;
 }
 
@@ -704,16 +640,16 @@ a {
     outline: none;
 }
 
-/* ======== *****testimonials css ends***** ======== */
+/* =====***** testimonials css ends *****===== */
 
 
-/* ======== *****membaer css starts***** ======== */
+/* =====***** membership css starts *****===== */
+
 .membership-heading {
     padding-top: 80px;
 }
 
 .membership-heading .header h4 {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 22px;
     color: var(--hcol);
@@ -731,31 +667,22 @@ a {
 }
 
 .membership-bg .member-item .box .box-header {
-    background: var(--memcol);
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    background: #ddd;
+    transition: all 0.4s linear;
 }
 
 .membership-bg .member-item .box .box-header h4 {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 16px;
     color: var(--hcol);
     text-transform: uppercase;
     line-height: 24px;
     padding: 20px 0;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .membership-bg .member-item .box .box-header:hover {
-    background: var(--brandcol);
+    background: #e23e38;
 }
 
 .membership-bg .member-item .box .box-header:hover h4 {
@@ -763,7 +690,7 @@ a {
 }
 
 .membership-bg .item1 .box .price {
-    background: url(../images/membership%20img1.png) no-repeat center/cover;
+    background: url(../images/membership%20img1.png) center /cover no-repeat;
     position: relative;
     z-index: 1;
 }
@@ -772,7 +699,7 @@ a {
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 80%);
+    background: rgb(0, 0, 0, 80%);
     position: absolute;
     top: 0;
     left: 0;
@@ -780,7 +707,7 @@ a {
 }
 
 .membership-bg .item2 .box .price {
-    background: url(../images/membership%20img2.png) no-repeat center/cover;
+    background: url(../images/membership%20img2.png) center /cover no-repeat;
     position: relative;
     z-index: 1;
 }
@@ -789,7 +716,7 @@ a {
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 80%);
+    background: rgb(0, 0, 0, 80%);
     position: absolute;
     top: 0;
     left: 0;
@@ -797,7 +724,7 @@ a {
 }
 
 .membership-bg .item3 .box .price {
-    background: url(../images/membership%20img3.png) no-repeat center/cover;
+    background: url(../images/membership%20img3.png) center /cover no-repeat;
     position: relative;
     z-index: 1;
 }
@@ -806,7 +733,7 @@ a {
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 80%);
+    background: rgb(0, 0, 0, 80%);
     position: absolute;
     top: 0;
     left: 0;
@@ -815,7 +742,6 @@ a {
 
 .membership-bg .member-item .box .price p {
     font-size: 50px;
-    font-family: var(--hfont);
     font-weight: 400;
     color: white;
     padding: 10px 0;
@@ -823,7 +749,6 @@ a {
 
 .membership-bg .member-item .box .price span {
     font-size: 29px;
-    font-family: var(--hfont);
     font-weight: 400;
 }
 
@@ -836,31 +761,22 @@ a {
 }
 
 .membership-bg .member-item .box .featurs {
-    background: var(--memcol);
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    background: #ddd;
+    transition: all 0.4s linear;
     padding: 10px 0;
 }
 
 .membership-bg .member-item .box .featurs a {
     font-size: 16px;
     line-height: 24px;
-    font-family: var(--hfont);
     font-weight: 400;
     color: var(--hcol);
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
     display: block;
 }
 
 .membership-bg .member-item .box .featurs:hover {
-    background: var(--brandcol);
+    background: #e23e38;
     color: white;
 }
 
@@ -868,12 +784,13 @@ a {
     color: white;
 }
 
-/* ======== *****membaer css ends***** ======== */
+/* =====***** membership css ends *****===== */
 
 
-/* ======== *****counter css starts***** ======== */
+/* =====***** counter css starts *****===== */
+
 .counter-bg {
-    background: url(../images/counter-img.png) no-repeat center/cover;
+    background: url(../images/counter-img.png) center /cover no-repeat;
     position: relative;
     z-index: 1;
     margin-top: 80px;
@@ -883,7 +800,7 @@ a {
     content: '';
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 80%);
+    background: rgb(0, 0, 0, 80%);
     position: absolute;
     top: 0;
     left: 0;
@@ -897,28 +814,25 @@ a {
 .counter-bg .item-child p {
     font-size: 40px;
     line-height: 30px;
-    font-family: var(--hfont);
     font-weight: 400;
 }
 
 .counter-bg .item-child h4 {
     font-size: 16px;
     line-height: 30px;
-    font-family: var(--hfont);
     font-weight: 400;
     text-transform: capitalize;
 }
 
-/* ======== *****counter css ends***** ======== */
+/* =====***** counter css ends *****===== */
 
 
-/* ======== *****routine css starts***** ======== */
+/* =====***** routine css starts *****===== */
 .routine-bg {
     padding-top: 80px;
 }
 
 .routine-bg .routine-header h4 {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 22px;
     color: var(--hcol);
@@ -934,13 +848,12 @@ a {
 }
 
 .routine-bg .routine-nav ul li {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 14px;
     color: var(--hcol);
     text-transform: capitalize;
     line-height: 24px;
-    background: var(--memcol);
+    background: #ddd;
     border-radius: 0;
     cursor: pointer;
     margin-top: 20px !important;
@@ -951,7 +864,7 @@ a {
 }
 
 .routine-bg .routine-nav ul li.active button {
-    background: var(--brandcol);
+    background: #e23e38;
     color: white;
 }
 
@@ -969,7 +882,6 @@ a {
 }
 
 .routine-bg .routine-nav .filter-text .item ul li p:first-of-type {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 16px;
     color: var(--hcol);
@@ -984,7 +896,6 @@ a {
 }
 
 .routine-bg .routine-nav .filter-text .item ul li p:last-of-type {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 14px;
     color: var(--hcol);
@@ -994,7 +905,7 @@ a {
 }
 
 .routine-bg .routine-nav .filter-text .item ul li.active {
-    background: var(--brandcol);
+    background: #e23e38;
 }
 
 .routine-bg .routine-nav .filter-text .item ul li.active p {
@@ -1005,10 +916,11 @@ a {
     color: white;
 }
 
-/* ======== *****routine css ends***** ======== */
+/* =====***** routine css ends *****===== */
 
 
-/* ======== *****branding css starts***** ======== */
+/* =====***** brand css starts *****===== */
+
 .brand-bg {
     position: relative;
     padding-top: 80px;
@@ -1022,7 +934,7 @@ a {
     top: 50%;
     left: -5%;
     transform: translateY(-50%);
-    transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .brand-bg .prevarrow:hover {
@@ -1037,7 +949,7 @@ a {
     top: 50%;
     right: -5%;
     transform: translateY(-50%);
-    transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .brand-bg .nextarrow:hover {
@@ -1051,31 +963,22 @@ a {
 }
 
 .brand-bg .slick-center {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-        rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-        rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    box-shadow: 0 50px 100px -20px rgb(50, 50, 93, 0.25), 0 30px 60px -30px rgb(0, 0, 0, 0.3), 0 -2px 6px 0 rgb(10, 37, 64, 0.35) inset;
+    transition: all 0.4s linear;
 }
 
 .brand-bg .slick-center img {
     transform: scale(1);
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
-/* ======== *****branding css ends***** ======== */
+/* =====***** brand css ends *****===== */
 
 
-/* ======== *****footer css starts***** ======== */
+/* =====***** footer css starts *****===== */
+
 .footer-bg {
-    background: url(../images/footer-img.png) no-repeat center/cover;
+    background: url(../images/footer-img.png) center /cover no-repeat;
     position: relative;
     z-index: -1;
 }
@@ -1083,7 +986,7 @@ a {
 .footer-bg .footer-overlay {
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 85%);
+    background: rgb(0, 0, 0, 85%);
 }
 
 .footer-bg::before {
@@ -1102,7 +1005,6 @@ a {
 }
 
 .footer-bg .footer-head h4 {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
@@ -1125,7 +1027,6 @@ a {
 }
 
 .footer-bg .footer-text ul li {
-    font-family: var(--pfont);
     font-weight: 500;
     font-size: 13px;
     text-transform: capitalize;
@@ -1142,14 +1043,13 @@ a {
     margin-bottom: 120px;
 }
 
-.footer-bg .footer-text ul p {
+.footer-bg .footer-text p {
     color: white;
     margin-bottom: 0;
     margin-bottom: 20px;
 }
 
 .footer-bg .footer-text ul p span {
-    font-family: var(--hfont);
     font-weight: 700;
     font-size: 14px;
 }
@@ -1186,7 +1086,6 @@ a {
 }
 
 .footer-bg .contact a {
-    font-family: var(--hfont);
     font-weight: 400;
     color: white;
     font-size: 13px;
@@ -1194,7 +1093,6 @@ a {
 }
 
 .footer-bg .contact p {
-    font-family: var(--hfont);
     font-weight: 400;
     color: white;
     font-size: 13px;
@@ -1202,7 +1100,6 @@ a {
 }
 
 .footer-bg .footer-icon h4 {
-    font-family: var(--hfont);
     font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
@@ -1218,20 +1115,16 @@ a {
 .footer-bg .footer-icon ul li {
     width: 30px;
     height: 30px;
-    border: 1px solid white;
+    border: white solid 1px;
     text-align: center;
     line-height: 30px;
     margin-right: 10px;
-    transition: all linear 0.4s;
-    -webkit-transition: all linear 0.4s;
-    -moz-transition: all linear 0.4s;
-    -ms-transition: all linear 0.4s;
-    -o-transition: all linear 0.4s;
+    transition: all 0.4s linear;
 }
 
 .footer-bg .footer-icon ul li:hover {
-    background: var(--brandcol);
-    border-color: var(--brandcol);
+    background: #e23e38;
+    border-color: #e23e38;
 }
 
 .footer-bg .footer-icon ul li a {
@@ -1243,7 +1136,6 @@ a {
 }
 
 .footer-bg .footer-branding p {
-    font-family: var(--pfont);
     font-weight: 400;
     font-size: 14px;
     text-transform: capitalize;
@@ -1254,7 +1146,6 @@ a {
 }
 
 .footer-bg .footer-branding p span {
-    font-family: var(--pfont);
     font-weight: 400;
     font-size: 14px;
     text-transform: uppercase;
@@ -1272,4 +1163,12 @@ a {
     left: 0;
 }
 
-/* ======== *****footer css ends***** ======== */
+/* =====***** footer css ends *****===== */
+
+
+/* ========== **********
+
+a creative web designer 
+      Imran Ahnaf
+
+********** ========== */

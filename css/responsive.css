@@ -51,7 +51,8 @@
     }
 
     .banner-slider .banner-item {
-        position: relative
+        position: relative;
+        z-index: 1;
     }
 
     .banner-slider .banner-item::after {
@@ -816,25 +817,5 @@
     /* ======== *****footer section ends***** ======== */
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ======== *****medium device responsive ends***** ======== */
