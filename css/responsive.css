@@ -50,6 +50,22 @@
         color: #353535;
     }
 
+    .banner-slider .banner-item {
+        position: relative !important;
+        z-index: 1 !important;
+    }
+
+    .banner-slider .banner-item::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 60%) !important;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1 !important;
+    }
+
     .banner-slider .banner-item .container .row .banner-text h4 {
         font-size: 25px !important;
     }
