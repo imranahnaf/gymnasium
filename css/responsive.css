@@ -1,805 +1,769 @@
 /* ======== *****extra small device responsive starts***** ======== */
-@media(max-width: 575px) {
-
-    /* ======== *****navbar & banner section starts***** ======== */
-
-    body {
-        overflow-x: hidden;
-    }
-
-    .navbar {
-        padding: 0 !important;
-    }
-
-    .navbar .navbar-brand {
-        position: static !important;
-        transform: skewX(0deg) !important;
-        -webkit-transform: skewX(0);
-        -moz-transform: skewX(0);
-        -o-transform: skewX(0);
-        -ms-transform: skewX(0);
-    }
-
-    .navbar .navbar-brand img {
-        transform: skewX(0deg) !important;
-        -webkit-transform: skewX(0);
-        -moz-transform: skewX(0);
-        -o-transform: skewX(0);
-        -ms-transform: skewX(0);
-        width: 80px;
-    }
+@media (max-width: 575px) {
+  /* ======== *****navbar & banner section starts***** ======== */
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar {
+    padding: 0 !important;
+  }
+
+  .navbar .navbar-brand {
+    position: static !important;
+    transform: skewX(0deg) !important;
+    -webkit-transform: skewX(0);
+    -moz-transform: skewX(0);
+    -o-transform: skewX(0);
+    -ms-transform: skewX(0);
+  }
+
+  .navbar .navbar-brand img {
+    transform: skewX(0deg) !important;
+    -webkit-transform: skewX(0);
+    -moz-transform: skewX(0);
+    -o-transform: skewX(0);
+    -ms-transform: skewX(0);
+    width: 80px;
+  }
+
+  .navbar .navbar-nav {
+    background: rgba(0, 0, 0, 80%) !important;
+  }
+
+  .navbar .navbar-nav .nav-item {
+    text-align: center;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link::before {
+    display: none;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link::after {
+    display: none;
+  }
+
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    background: white;
+    color: #353535;
+  }
 
-    .navbar .navbar-nav {
-        background: rgba(0, 0, 0, 80%) !important;
-    }
+  .banner-slider .banner-item .container .row .banner-text h4 {
+    font-size: 25px !important;
+  }
 
-    .navbar .navbar-nav .nav-item {
-        text-align: center;
-    }
+  .banner-slider .banner-item .container .row .banner-text h1 {
+    font-size: 40px !important;
+  }
 
-    .navbar .navbar-nav .nav-item .nav-link::before {
-        display: none;
-    }
+  .banner-slider .item-1 .container .row .banner-text h4::before {
+    display: none;
+  }
 
-    .navbar .navbar-nav .nav-item .nav-link::after {
-        display: none;
-    }
+  .banner-slider .item-1 .container .row .banner-text h4::after {
+    display: none;
+  }
 
-    .navbar .navbar-nav .nav-item .nav-link:hover {
-        background: white;
-        color: #353535;
-    }
+  .banner-slider .item-1 .container .row .banner-text h1::before {
+    display: none;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text h4 {
-        font-size: 25px !important;
-    }
+  .banner-slider .item-1 .container .row .banner-text h1::after {
+    display: none;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text h1 {
-        font-size: 40px !important;
-    }
+  .banner-slider .item-1 .container .row .banner-text p::before {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h4::before {
-        display: none;
-    }
+  .banner-slider .item-1 .container .row .banner-text p::after {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h4::after {
-        display: none;
-    }
+  .banner-slider .banner-item .container .row .banner-text a {
+    margin-top: 30px;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h1::before {
-        display: none;
-    }
+  .banner-slider .banner-item .container .row .banner-text a:first-of-type {
+    margin-left: 20px !important;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h1::after {
-        display: none;
-    }
+  .banner-slider .banner-item .container .row .banner-text {
+    padding-top: 140px !important;
+    padding-bottom: 30px !important;
+    text-align: center !important;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text p::before {
-        display: none;
-    }
+  .banner-slider .banner-item .container .row .banner-text p {
+    padding: 0 !important;
+    text-align: center !important;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text p::after {
-        display: none;
-    }
+  /* ======== *****navbar & banner section ends***** ======== */
 
-    .banner-slider .banner-item .container .row .banner-text a {
-        margin-top: 30px;
-    }
+  /* ======== *****about section starts***** ======== */
 
-    .banner-slider .banner-item .container .row .banner-text a:first-of-type {
-        margin-left: 20px !important;
-    }
+  .about-bg {
+    padding-top: 30px !important;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text {
-        padding-top: 140px !important;
-        padding-bottom: 30px !important;
-        text-align: center !important;
-    }
+  .about-bg .about-content .about-text p {
+    padding: 0 !important;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text p {
-        padding: 0 !important;
-        text-align: center !important;
-    }
+  .about-bg .about-content .about-text p:first-of-type {
+    padding-top: 20px !important;
+  }
 
-    /* ======== *****navbar & banner section ends***** ======== */
+  /* ======== *****about section ends***** ======== */
 
+  /* ======== *****gallary section starts***** ======== */
 
-    /* ======== *****about section starts***** ======== */
+  .gl-heading .heading {
+    padding-top: 30px !important;
+  }
 
-    .about-bg {
-        padding-top: 30px !important;
-    }
+  /* ======== *****gallary section ends***** ======== */
 
-    .about-bg .about-content .about-text p {
-        padding: 0 !important;
-    }
+  /* ======== *****team section starts***** ======== */
 
-    .about-bg .about-content .about-text p:first-of-type {
-        padding-top: 20px !important;
-    }
+  .team-bg .team-head {
+    padding-top: 30px !important;
+  }
 
-    /* ======== *****about section ends***** ======== */
+  .team-bg .team-item {
+    margin-top: 0 !important;
+  }
 
+  .team-bg .team-item:first-child {
+    margin-top: 40px !important;
+  }
 
-    /* ======== *****gallary section starts***** ======== */
+  .team-bg .team-item .card {
+    margin-right: 0 !important;
+  }
 
-    .gl-heading .heading {
-        padding-top: 30px !important;
-    }
+  /* ======== *****team section ends***** ======== */
 
-    /* ======== *****gallary section ends***** ======== */
+  /* ======== *****testimonials section starts***** ======== */
 
+  .testimonials-bg .test-item {
+    padding-bottom: 30px !important;
+  }
 
-    /* ======== *****team section starts***** ======== */
+  .testimonials-bg .test-img img {
+    align-items: center !important;
+  }
 
-    .team-bg .team-head {
-        padding-top: 30px !important;
-    }
+  /* ======== *****testimonials section ends***** ======== */
 
-    .team-bg .team-item {
-        margin-top: 0 !important;
-    }
+  /* ======== *****membership section starts***** ======== */
 
-    .team-bg .team-item:first-child {
-        margin-top: 40px !important;
-    }
+  .membership-heading {
+    padding-top: 30px !important;
+  }
 
-    .team-bg .team-item .card {
-        margin-right: 0 !important;
-    }
+  .membership-bg .member-item {
+    margin-top: 30px !important;
+    padding: 0 !important;
+  }
 
-    /* ======== *****team section ends***** ======== */
+  .membership-bg .member-item .box .text {
+    padding-top: 15px !important;
+  }
 
+  .membership-bg .member-item .box .text p {
+    padding-top: 5px !important;
+  }
 
-    /* ======== *****testimonials section starts***** ======== */
+  /* ======== *****membership section ends***** ======== */
 
-    .testimonials-bg .test-item {
-        padding-bottom: 30px !important;
-    }
+  /* ======== *****counter section starts***** ======== */
 
-    .testimonials-bg .test-img img {
-        align-items: center !important;
-    }
+  .counter-bg {
+    margin-top: 30px !important;
+    padding-top: 10px !important;
+  }
 
-    /* ======== *****testimonials section ends***** ======== */
+  .counter-bg .item-child {
+    padding: 10px 0 10px 0 !important;
+  }
 
+  /* ======== *****counter section ends***** ======== */
 
-    /* ======== *****membership section starts***** ======== */
+  /* ======== *****routine section starts***** ======== */
 
-    .membership-heading {
-        padding-top: 30px !important;
-    }
+  .routine-bg .routine-nav ul {
+    margin-bottom: 10px !important;
+  }
 
-    .membership-bg .member-item {
-        margin-top: 30px !important;
-        padding: 0 !important;
-    }
+  .routine-bg .routine-nav ul li {
+    margin-top: 0 !important;
+  }
 
-    .membership-bg .member-item .box .text {
-        padding-top: 15px !important;
-    }
+  .routine-bg .routine-nav ul li button {
+    font-size: 12px !important;
+    padding: 10px 25px !important;
+  }
 
-    .membership-bg .member-item .box .text p {
-        padding-top: 5px !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-right: 10px !important;
+    margin-bottom: 11px !important;
+    width: 22% !important;
+  }
 
-    /* ======== *****membership section ends***** ======== */
+  .routine-bg .routine-nav .filter-text .item ul li:nth-child(4) {
+    margin-right: 0 !important;
+  }
 
+  .routine-bg .routine-nav .filter-text .item ul li:nth-child(8) {
+    margin-right: 0 !important;
+  }
 
-    /* ======== *****counter section starts***** ======== */
+  .routine-bg .routine-nav .filter-text .item ul li p {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 
-    .counter-bg {
-        margin-top: 30px !important;
-        padding-top: 10px !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li p:first-of-type {
+    padding: 10px 0 !important;
+  }
 
-    .counter-bg .item-child {
-        padding: 10px 0 10px 0 !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li i {
+    font-size: 32px !important;
+  }
 
-    /* ======== *****counter section ends***** ======== */
+  /* ======== *****routine section ends***** ======== */
 
+  /* ======== *****membership section starts***** ======== */
 
-    /* ======== *****routine section starts***** ======== */
+  /* ======== *****membership section ends***** ======== */
 
-    .routine-bg .routine-nav ul {
-        margin-bottom: 10px !important;
-    }
+  /* ======== *****brand section starts***** ======== */
 
-    .routine-bg .routine-nav ul li {
-        margin-top: 0 !important;
-    }
+  .brand-bg {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
 
-    .routine-bg .routine-nav ul li button {
-        font-size: 12px !important;
-        padding: 10px 25px !important;
-    }
+  /* ======== *****brand section ends***** ======== */
 
-    .routine-bg .routine-nav .filter-text .item ul li {
-        padding: 0 !important;
-        margin: 0 !important;
-        margin-right: 10px !important;
-        margin-bottom: 11px !important;
-        width: 22% !important;
-    }
+  .footer-bg .footer-branding p {
+    font-size: 12px !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li:nth-child(4) {
-        margin-right: 0 !important;
-    }
+  .footer-bg .footer-img ul li {
+    margin-right: 0 !important;
+    width: 24%;
+    margin-right: 1% !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li:nth-child(8) {
-        margin-right: 0 !important;
-    }
+  .footer-bg .footer-img ul li img {
+    width: 100%;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li p {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
+  .footer-bg .footer-text {
+    padding-top: 10px !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li p:first-of-type {
-        padding: 10px 0 !important;
-    }
+  .footer-bg .footer-text i:first-of-type {
+    margin-bottom: 80px !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li i {
-        font-size: 32px !important;
-    }
+  .footer-bg .footer-img {
+    padding-top: 20px !important;
+  }
 
-    /* ======== *****routine section ends***** ======== */
+  .footer-bg .footer-text ul {
+    margin-bottom: 0 !important;
+  }
 
+  .footer-bg::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: 70px !important;
+    left: 0;
+  }
 
-    /* ======== *****membership section starts***** ======== */
-
-
-
-    /* ======== *****membership section ends***** ======== */
-
-
-    /* ======== *****brand section starts***** ======== */
-
-    .brand-bg {
-        padding-top: 30px !important;
-        padding-bottom: 30px !important;
-    }
-
-    /* ======== *****brand section ends***** ======== */
-
-    .footer-bg .footer-branding p {
-        font-size: 12px !important;
-    }
-
-    .footer-bg .footer-img ul li {
-        margin-right: 0 !important;
-        width: 24%;
-        margin-right: 1% !important;
-    }
-
-    .footer-bg .footer-img ul li img {
-        width: 100%;
-    }
-
-    .footer-bg .footer-text {
-        padding-top: 10px !important;
-    }
-
-    .footer-bg .footer-text i:first-of-type {
-        margin-bottom: 80px !important;
-    }
-
-
-    .footer-bg .footer-img {
-        padding-top: 20px !important;
-    }
-
-    .footer-bg .footer-text ul {
-        margin-bottom: 0 !important;
-    }
-
-    .footer-bg::after {
-        content: '';
-        width: 100%;
-        height: 2px;
-        background: white;
-        position: absolute;
-        bottom: 70px !important;
-        left: 0;
-    }
-
-    /* ======== *****footer section ends***** ======== */
+  /* ======== *****footer section ends***** ======== */
 }
 
 /* ======== *****extra small device responsive ends***** ======== */
 
-
-
-
-
 /* ======== *****small device responsive starts***** ======== */
 
 @media (min-width: 576px) and (max-width: 767px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  /* ======== *****navbar & banner section starts***** ======== */
+  .navbar {
+    padding: 0 !important;
+  }
 
-    body {
-        overflow-x: hidden;
-    }
+  .navbar .navbar-brand {
+    position: static !important;
+  }
 
-    /* ======== *****navbar & banner section starts***** ======== */
-    .navbar {
-        padding: 0 !important;
-    }
+  .navbar .navbar-nav {
+    background: rgba(0, 0, 0, 80%) !important;
+  }
 
-    .navbar .navbar-brand {
-        position: static !important;
+  .navbar .navbar-nav .nav-item {
+    text-align: center;
+  }
 
-    }
+  .navbar .navbar-nav .nav-item .nav-link::before {
+    display: none;
+  }
 
-    .navbar .navbar-nav {
-        background: rgba(0, 0, 0, 80%) !important;
-    }
+  .navbar .navbar-nav .nav-item .nav-link::after {
+    display: none;
+  }
 
-    .navbar .navbar-nav .nav-item {
-        text-align: center;
-    }
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    background: white;
+    color: #353535;
+  }
 
-    .navbar .navbar-nav .nav-item .nav-link::before {
-        display: none;
-    }
+  .banner-slider .banner-item .container .row .banner-text h4 {
+    font-size: 32px !important;
+  }
 
-    .navbar .navbar-nav .nav-item .nav-link::after {
-        display: none;
-    }
+  .banner-slider .banner-item .container .row .banner-text h1 {
+    font-size: 48px !important;
+  }
 
-    .navbar .navbar-nav .nav-item .nav-link:hover {
-        background: white;
-        color: #353535;
-    }
+  .banner-slider .item-1 .container .row .banner-text h4::before {
+    display: none;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text h4 {
-        font-size: 32px !important;
-    }
+  .banner-slider .item-1 .container .row .banner-text h4::after {
+    display: none;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text h1 {
-        font-size: 48px !important;
-    }
+  .banner-slider .item-1 .container .row .banner-text h1::before {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h4::before {
-        display: none;
-    }
+  .banner-slider .item-1 .container .row .banner-text h1::after {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h4::after {
-        display: none;
-    }
+  .banner-slider .item-1 .container .row .banner-text p::before {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h1::before {
-        display: none;
-    }
+  .banner-slider .item-1 .container .row .banner-text p::after {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h1::after {
-        display: none;
-    }
+  .banner-slider .banner-item .container .row .banner-text a {
+    margin-top: 30px;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text p::before {
-        display: none;
-    }
+  .banner-slider .banner-item .container .row .banner-text a:first-of-type {
+    margin-left: 20px !important;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text p::after {
-        display: none;
-    }
+  .banner-slider .banner-item .container .row .banner-text {
+    padding-top: 160px !important;
+    padding-bottom: 50px !important;
+    text-align: center !important;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text a {
-        margin-top: 30px;
-    }
+  .banner-slider .banner-item .container .row .banner-text p {
+    padding: 0 !important;
+    text-align: center !important;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text a:first-of-type {
-        margin-left: 20px !important;
-    }
+  /* ======== *****navbar & banner section ends***** ======== */
 
-    .banner-slider .banner-item .container .row .banner-text {
-        padding-top: 160px !important;
-        padding-bottom: 50px !important;
-        text-align: center !important;
-    }
+  /* ======== *****about section starts***** ======== */
 
-    .banner-slider .banner-item .container .row .banner-text p {
-        padding: 0 !important;
-        text-align: center !important;
-    }
+  .about-bg {
+    padding-top: 30px !important;
+  }
 
-    /* ======== *****navbar & banner section ends***** ======== */
+  .about-bg .about-content .about-text p {
+    padding: 0 !important;
+  }
 
+  .about-bg .about-content .about-text p:first-of-type {
+    padding-top: 20px !important;
+  }
 
-    /* ======== *****about section starts***** ======== */
+  .about-bg .about-content .about-text p:last-of-type {
+    margin-bottom: 0 !important;
+    padding-bottom: 30px !important;
+  }
 
-    .about-bg {
-        padding-top: 30px !important;
-    }
+  /* ======== *****about section ends***** ======== */
 
-    .about-bg .about-content .about-text p {
-        padding: 0 !important;
-    }
+  /* ======== *****gallary section starts***** ======== */
 
-    .about-bg .about-content .about-text p:first-of-type {
-        padding-top: 20px !important;
-    }
+  .gl-heading .heading {
+    padding-top: 50px !important;
+  }
 
-    .about-bg .about-content .about-text p:last-of-type {
-        margin-bottom: 0 !important;
-        padding-bottom: 30px !important;
-    }
+  /* ======== *****gallary section ends***** ======== */
 
-    /* ======== *****about section ends***** ======== */
+  /* ======== *****team section starts***** ======== */
 
+  .team-bg .team-head {
+    padding-top: 50px !important;
+  }
 
-    /* ======== *****gallary section starts***** ======== */
+  .team-bg .team-item {
+    margin-top: 0 !important;
+  }
 
-    .gl-heading .heading {
-        padding-top: 50px !important;
-    }
+  .team-bg .team-item {
+    margin-top: 35px !important;
+  }
 
-    /* ======== *****gallary section ends***** ======== */
+  .team-bg .team-item .card {
+    margin-right: 0 !important;
+  }
 
+  /* ======== *****team section ends***** ======== */
 
-    /* ======== *****team section starts***** ======== */
+  /* ======== *****membership section starts***** ======== */
 
-    .team-bg .team-head {
-        padding-top: 50px !important;
-    }
+  .membership-heading {
+    padding-top: 50px !important;
+  }
 
-    .team-bg .team-item {
-        margin-top: 0 !important;
-    }
+  .membership-bg .member-item {
+    margin-top: 30px !important;
+    padding: 0 !important;
+  }
 
-    .team-bg .team-item {
-        margin-top: 35px !important;
-    }
+  .membership-bg .member-item .box .text {
+    padding-top: 15px !important;
+  }
 
-    .team-bg .team-item .card {
-        margin-right: 0 !important;
-    }
+  .membership-bg .member-item .box .text p {
+    padding-top: 25px !important;
+  }
 
-    /* ======== *****team section ends***** ======== */
+  /* ======== *****membership section ends***** ======== */
 
+  /* ======== *****counter section starts***** ======== */
 
-    /* ======== *****membership section starts***** ======== */
+  .counter-bg {
+    margin-top: 50px !important;
+    padding-top: 20px !important;
+  }
 
-    .membership-heading {
-        padding-top: 50px !important;
-    }
+  .counter-bg .item-child {
+    padding: 15px 0 15px 0 !important;
+  }
 
-    .membership-bg .member-item {
-        margin-top: 30px !important;
-        padding: 0 !important;
-    }
+  /* ======== *****counter section ends***** ======== */
 
-    .membership-bg .member-item .box .text {
-        padding-top: 15px !important;
-    }
+  /* ======== *****routine section starts***** ======== */
 
-    .membership-bg .member-item .box .text p {
-        padding-top: 25px !important;
-    }
+  .routine-bg {
+    padding-top: 50px !important;
+  }
 
-    /* ======== *****membership section ends***** ======== */
+  .routine-bg .routine-nav ul li {
+    margin-top: 0 !important;
+  }
 
+  .routine-bg .routine-nav ul {
+    margin-bottom: 10px !important;
+  }
 
-    /* ======== *****counter section starts***** ======== */
+  .routine-bg .routine-nav ul li button {
+    font-size: 15px !important;
+    padding: 10px 60px !important;
+  }
 
-    .counter-bg {
-        margin-top: 50px !important;
-        padding-top: 20px !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-right: 10px !important;
+    margin-bottom: 11px !important;
+    width: 23.5% !important;
+  }
 
-    .counter-bg .item-child {
-        padding: 15px 0 15px 0 !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li:nth-child(4) {
+    margin-right: 0 !important;
+  }
 
-    /* ======== *****counter section ends***** ======== */
+  .routine-bg .routine-nav .filter-text .item ul li:nth-child(8) {
+    margin-right: 0 !important;
+  }
 
+  .routine-bg .routine-nav .filter-text .item ul li p {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 
-    /* ======== *****routine section starts***** ======== */
+  .routine-bg .routine-nav .filter-text .item ul li p:first-of-type {
+    padding: 10px 0 !important;
+  }
 
-    .routine-bg {
-        padding-top: 50px !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li i {
+    font-size: 32px !important;
+  }
 
-    .routine-bg .routine-nav ul li {
-        margin-top: 0 !important;
-    }
+  /* ======== *****routine section ends***** ======== */
 
-    .routine-bg .routine-nav ul {
-        margin-bottom: 10px !important;
-    }
+  /* ======== *****brand section starts***** ======== */
 
-    .routine-bg .routine-nav ul li button {
-        font-size: 15px !important;
-        padding: 10px 60px !important;
-    }
+  .brand-bg {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li {
-        padding: 0 !important;
-        margin: 0 !important;
-        margin-right: 10px !important;
-        margin-bottom: 11px !important;
-        width: 23.5% !important;
-    }
+  /* ======== *****brand section ends***** ======== */
 
-    .routine-bg .routine-nav .filter-text .item ul li:nth-child(4) {
-        margin-right: 0 !important;
-    }
+  .footer-bg .footer-branding p {
+    font-size: 12px !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li:nth-child(8) {
-        margin-right: 0 !important;
-    }
+  .footer-bg .footer-img ul li {
+    margin-right: 0 !important;
+    width: 24%;
+    margin-right: 1% !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li p {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
+  .footer-bg .footer-img ul li img {
+    width: 100%;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li p:first-of-type {
-        padding: 10px 0 !important;
-    }
+  .footer-bg .footer-text {
+    padding-top: 10px !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li i {
-        font-size: 32px !important;
-    }
+  .footer-bg .footer-text ul li i:first-of-type {
+    margin-bottom: 170px;
+  }
 
-    /* ======== *****routine section ends***** ======== */
+  .footer-bg .footer-img {
+    padding-top: 20px !important;
+  }
 
+  .footer-bg .footer-text ul {
+    margin-bottom: 0 !important;
+  }
 
-    /* ======== *****brand section starts***** ======== */
+  .footer-bg::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute;
+    bottom: 70px !important;
+    left: 0;
+  }
 
-    .brand-bg {
-        padding-top: 50px !important;
-        padding-bottom: 50px !important;
-    }
-
-    /* ======== *****brand section ends***** ======== */
-
-    .footer-bg .footer-branding p {
-        font-size: 12px !important;
-    }
-
-    .footer-bg .footer-img ul li {
-        margin-right: 0 !important;
-        width: 24%;
-        margin-right: 1% !important;
-    }
-
-    .footer-bg .footer-img ul li img {
-        width: 100%;
-    }
-
-    .footer-bg .footer-text {
-        padding-top: 10px !important;
-    }
-
-    .footer-bg .footer-text ul li i:first-of-type {
-        margin-bottom: 170px;
-    }
-
-    .footer-bg .footer-img {
-        padding-top: 20px !important;
-    }
-
-    .footer-bg .footer-text ul {
-        margin-bottom: 0 !important;
-    }
-
-    .footer-bg::after {
-        content: '';
-        width: 100%;
-        height: 2px;
-        background: white;
-        position: absolute;
-        bottom: 70px !important;
-        left: 0;
-    }
-
-    /* ======== *****footer section ends***** ======== */
+  /* ======== *****footer section ends***** ======== */
 }
 
 /* ======== *****small device responsive ends***** ======== */
 
-
-
-
-
 /* ======== *****medium device responsive starts***** ======== */
 
 @media (min-width: 768px) and (max-width: 991px) {
+  body {
+    overflow-x: hidden;
+  }
 
-    body {
-        overflow-x: hidden;
-    }
+  /* ======== *****navbar & banner section starts***** ======== */
+  .navbar {
+    padding: 0 !important;
+  }
 
-    /* ======== *****navbar & banner section starts***** ======== */
-    .navbar {
-        padding: 0 !important;
-    }
+  .navbar .navbar-brand {
+    position: static !important;
+  }
 
-    .navbar .navbar-brand {
-        position: static !important;
-    }
+  .navbar .navbar-nav {
+    background: rgba(0, 0, 0, 80%) !important;
+  }
 
-    .navbar .navbar-nav {
-        background: rgba(0, 0, 0, 80%) !important;
-    }
+  .navbar .navbar-nav .nav-item {
+    text-align: center;
+  }
 
-    .navbar .navbar-nav .nav-item {
-        text-align: center;
-    }
+  .navbar .navbar-nav .nav-item .nav-link::before {
+    display: none;
+  }
 
-    .navbar .navbar-nav .nav-item .nav-link::before {
-        display: none;
-    }
+  .navbar .navbar-nav .nav-item .nav-link::after {
+    display: none;
+  }
 
-    .navbar .navbar-nav .nav-item .nav-link::after {
-        display: none;
-    }
+  .navbar .navbar-nav .nav-item .nav-link:hover {
+    background: white;
+    color: #353535;
+  }
 
-    .navbar .navbar-nav .nav-item .nav-link:hover {
-        background: white;
-        color: #353535;
-    }
+  .banner-slider .banner-item .container .row .banner-text h4 {
+    font-size: 32px !important;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text h4 {
-        font-size: 32px !important;
-    }
+  .banner-slider .banner-item .container .row .banner-text h1 {
+    font-size: 48px !important;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text h1 {
-        font-size: 48px !important;
-    }
+  .banner-slider .item-1 .container .row .banner-text h4::before {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h4::before {
-        display: none;
-    }
+  .banner-slider .item-1 .container .row .banner-text h4::after {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h4::after {
-        display: none;
-    }
+  .banner-slider .item-1 .container .row .banner-text h1::before {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h1::before {
-        display: none;
-    }
+  .banner-slider .item-1 .container .row .banner-text h1::after {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text h1::after {
-        display: none;
-    }
+  .banner-slider .item-1 .container .row .banner-text p::before {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text p::before {
-        display: none;
-    }
+  .banner-slider .item-1 .container .row .banner-text p::after {
+    display: none;
+  }
 
-    .banner-slider .item-1 .container .row .banner-text p::after {
-        display: none;
-    }
+  .banner-slider .banner-item .container .row .banner-text a {
+    margin-top: 80px;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text a {
-        margin-top: 80px;
-    }
+  .banner-slider .banner-item .container .row .banner-text a:first-of-type {
+    margin-left: 20px !important;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text a:first-of-type {
-        margin-left: 20px !important;
-    }
+  .banner-slider .banner-item .container .row .banner-text {
+    padding-top: 200px !important;
+    padding-bottom: 100px !important;
+    text-align: center !important;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text {
-        padding-top: 200px !important;
-        padding-bottom: 100px !important;
-        text-align: center !important;
-    }
+  .banner-slider .banner-item .container .row .banner-text p {
+    padding: 0 !important;
+    text-align: center !important;
+  }
 
-    .banner-slider .banner-item .container .row .banner-text p {
-        padding: 0 !important;
-        text-align: center !important;
-    }
+  /* ======== *****navbar & banner section ends***** ======== */
 
-    /* ======== *****navbar & banner section ends***** ======== */
+  /* ======== *****membership section starts***** ======== */
 
+  .membership-bg .member-item {
+    padding-right: 15px !important;
+  }
 
-    /* ======== *****membership section starts***** ======== */
+  .membership-bg .member-item3 {
+    padding-right: 0px !important;
+  }
 
-    .membership-bg .member-item {
-        padding-right: 15px !important;
-    }
+  /* ======== *****membership section ends***** ======== */
 
-    .membership-bg .member-item3 {
-        padding-right: 0px !important;
-    }
+  /* ======== *****routine section starts***** ======== */
 
-    /* ======== *****membership section ends***** ======== */
+  .routine-bg {
+    padding-top: 50px !important;
+  }
 
+  .routine-bg .routine-nav ul {
+    margin-bottom: 10px !important;
+  }
 
-    /* ======== *****routine section starts***** ======== */
+  .routine-bg .routine-nav ul li {
+    margin-top: 0 !important;
+    width: 23% !important;
+    margin-right: 10px !important;
+  }
 
-    .routine-bg {
-        padding-top: 50px !important;
-    }
+  .routine-bg .routine-nav ul li button {
+    font-size: 15px !important;
+    padding: 10px 60px !important;
+  }
 
-    .routine-bg .routine-nav ul {
-        margin-bottom: 10px !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li {
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-right: 18px !important;
+    margin-bottom: 11px !important;
+    width: 23% !important;
+  }
 
-    .routine-bg .routine-nav ul li {
-        margin-top: 0 !important;
-        width: 23% !important;
-        margin-right: 10px !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li:nth-child(4) {
+    margin-right: 0 !important;
+  }
 
-    .routine-bg .routine-nav ul li button {
-        font-size: 15px !important;
-        padding: 10px 60px !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li:nth-child(8) {
+    margin-right: 0 !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li {
-        padding: 0 !important;
-        margin: 0 !important;
-        margin-right: 18px !important;
-        margin-bottom: 11px !important;
-        width: 23% !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li p {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li:nth-child(4) {
-        margin-right: 0 !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li p:first-of-type {
+    padding: 10px 0 !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li:nth-child(8) {
-        margin-right: 0 !important;
-    }
+  .routine-bg .routine-nav .filter-text .item ul li i {
+    font-size: 32px !important;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li p {
-        padding: 0 !important;
-        margin: 0 !important;
-    }
+  /* ======== *****routine section ends***** ======== */
 
-    .routine-bg .routine-nav .filter-text .item ul li p:first-of-type {
-        padding: 10px 0 !important;
-    }
+  .brand-bg {
+    position: relative;
+  }
 
-    .routine-bg .routine-nav .filter-text .item ul li i {
-        font-size: 32px !important;
-    }
+  .brand-bg .prevarrow {
+    color: var(--hcol) !important;
+    font-size: 24px !important;
+    position: absolute !important;
+    top: 50%;
+    left: -2% !important;
+    transform: translateY(-50%) !important;
+    transition: all linear 0.4s !important;
+  }
 
+  .brand-bg .nextarrow {
+    color: var(--hcol) !important;
+    font-size: 24px !important;
+    position: absolute !important;
+    top: 50% !important;
+    right: -2% !important;
+    transform: translateY(-50%) !important;
+    transition: all linear 0.4s !important;
+  }
 
-    /* ======== *****routine section ends***** ======== */
+  /* ======== *****brand section ends***** ======== */
 
+  .footer-bg::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: white;
+    position: absolute !important;
+    bottom: 70px !important;
+    left: 0;
+  }
 
-    .brand-bg {
-        position: relative;
-    }
-
-    .brand-bg .prevarrow {
-        color: var(--hcol) !important;
-        font-size: 24px !important;
-        position: absolute !important !important;
-        top: 50%;
-        left: -2% !important;
-        transform: translateY(-50%) !important;
-        transition: all linear 0.4s !important;
-    }
-
-    .brand-bg .nextarrow {
-        color: var(--hcol) !important;
-        font-size: 24px !important;
-        position: absolute !important;
-        top: 50% !important;
-        right: -2% !important;
-        transform: translateY(-50%) !important;
-        transition: all linear 0.4s !important;
-    }
-
-    /* ======== *****brand section ends***** ======== */
-
-    .footer-bg::after {
-        content: '';
-        width: 100%;
-        height: 2px;
-        background: white;
-        position: absolute !important;
-        bottom: 70px !important;
-        left: 0;
-    }
-
-    /* ======== *****footer section ends***** ======== */
-
+  /* ======== *****footer section ends***** ======== */
 }
 
 /* ======== *****medium device responsive ends***** ======== */
